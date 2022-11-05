@@ -78,7 +78,7 @@
  
 }
 
-.Div1_H1{
+.Div1_H2{
   display: flex;
   flex-direction: column;
   font-size: 1.5rem solid;
@@ -91,7 +91,7 @@
 
 }
 
-.Div1_H2{
+.Div1_H3{
   display: flex;
   flex-direction: column;
   font-size: 1.5rem solid;
@@ -145,7 +145,7 @@
   margin-top: 20%;
   margin-right: 15%;
 }
-.Div2_H1{
+.Div2_H2{
   display: flex;
   flex-direction: row;
   font-size: 1.5rem solid;
@@ -354,3 +354,163 @@
   background-repeat: no-repeat;
   border-radius: 4px;
 }
+
+
+/* აქ იწყება მესამე სექცია */
+
+.Section3{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 80%;
+  height: 960px;
+  border: 2px solid black;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 4%;
+}
+
+
+.Sec3_DivForArrow{
+  display: flex;
+  flex-direction: row;
+}
+.Sec3_H2_HAPPENING{
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  color: #202124;
+}
+
+.Sec3_Arrowleft{
+  display: flex;
+  flex-direction: row;
+  width: 6px;
+  height: 10px;
+  opacity: 0.5;
+  margin-left: 75%;
+}
+.Sec3_Arrowright{
+  display: flex;
+  flex-direction: row;
+  width: 6px;
+  height: 10px;
+  margin-left: 5%;
+  
+}
+
+.Sec3_MainDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.Sec3_DivForColumn{
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+
+}
+
+.Sec3_Div1{
+  display: flex;
+  flex-direction: column;
+  background-image: url(../Pics/Sec3_Pic1.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 430px;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+
+.Sec3_Div1_text1{
+  font-size: 1rem;
+  color: #ffffff;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+.Sec3_Div1_text2{
+  font-size: 1.5rem;
+  color: #ffffff;
+  padding-top: 232px;
+  padding-left: 40px;
+}
+
+.Sec3_Div1_text3{
+  font-size: 1rem;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+.Sec3_DivForClock{
+  display: flex;
+  flex-direction: row;
+  padding-top: 14px;
+  padding-left: 40px;
+}
+
+.Sec3_Div2{
+  display: flex;
+  flex-direction: column;
+  background-image: url(../Pics/Sec3_Pic2.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 430px;
+  border-radius: 4px;
+  margin-top: 35px;
+}
+.Sec3_DivForcolumn2{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.Sec3_Div3{
+  display: flex;
+  flex-direction: column;
+  background-image: url(../Pics/Sec3_pic3.png);
+  background-repeat: no-repeat;
+  height: 276px;
+  border-radius: 4px;
+  margin-top: 35px;
+}
+
+.Sec3_Div3_text1{
+  display: flex;
+  font-size: 1rem;
+  color: #202124;
+  padding-top: 230px;
+}
+
+.Sec3_Div3_ForClock{
+display: flex;
+flex-direction: row;
+padding-top: 5px;
+color: #a6adb4;
+font-size: 0.813rem;
+
+}
+
+.Sec3_Div4{
+  display: flex;
+  flex-direction: column;
+  background-image: url(../Pics/Sec3_Pic4.png);
+  background-repeat: no-repeat;
+  height: 276px;
+  border-radius: 4px;
+  margin-top: 35px;
+}
+
+.Sec3_Div5{
+  display: flex;
+  flex-direction: column;
+  background-image: url(../Pics/Sec3_Pic5.png);
+  background-repeat: no-repeat;
+  height: 276px;
+  border-radius: 4px;
+  margin-top: 35px;
+}
+
+
+
