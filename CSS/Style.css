@@ -1,0 +1,287 @@
+.Container {
+  max-width: 1440px;
+  width: 100%;
+  height: 2672px;
+  margin: 0 auto;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f8f9;
+
+}
+
+.Header{
+  width: 100%;
+  height: 50px;
+  border: 2px solid black;
+  display: flex;
+ 
+}
+
+.Nav1_ul{
+  display: flex;
+  flex-direction: row;
+  gap:18px;
+  font-size: 0.688rem;
+  color: #343638;
+  padding-top: 21px;
+  opacity: 0.5;
+}
+
+.Nav1_ul :nth-child(1){
+  color: #343638;
+  font-weight: bold;
+  opacity: 1;
+  text-decoration: underline red;
+  
+
+}
+
+.Profile_pic{
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  font-size: 0.688rem;
+  padding-left: 34px;
+}
+
+.Logo{
+  display: flex;
+  flex-direction: row;
+  padding-right: 950px;
+  padding-top: 21px;
+  padding-left: 18px;
+  color: #fa6980;
+  font-size: 0.813rem;
+  
+}
+
+/* აქ იწყება პირველი სექცია */
+
+.Section_1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 600px;
+  border: 2px solid black;
+
+}
+
+.Sec_1_Div_1 {
+  width: 58%;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../Pics/Section_1_pic_1.png);
+  background-repeat: no-repeat;
+  background-position:left;
+ 
+}
+
+.Div1_H1{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem solid;
+  color: #ffffff;
+  margin-left: 140px;
+  margin-top: 177px;
+  border-bottom: 2px solid #ffffff;
+  width: 562px;
+  height: 61px;
+
+}
+
+.Div1_H2{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem solid;
+  color: #ffffff;
+  margin-left: 140px;
+  margin-top: 50px;
+}
+
+.Div1_H4{
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem solid;
+  color: #ffffff;
+  margin-left: 140px;
+  margin-top: 10px;
+}
+
+.Button_learn{
+  display: flex;
+  flex-direction: column;
+  background-color: #fa6980;
+  text-align: center;
+  color:  #ffffff;
+  font-size: 0.688rem;
+  width: 134px;
+  height: 40px;
+  border-radius: 2px;
+  border: none;
+  margin-left: 140px;
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-top: 13px;
+}
+
+
+.Sec_1_Div_2{
+  width: 42%;
+  display: flex;
+  flex-direction: column;
+  background-color:  #ffffff;
+  
+}
+
+.DivForArrow{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  height: 61px;
+  border-bottom: 2px solid #ebeded;
+  margin-left: 15%;
+  margin-top: 20%;
+  margin-right: 15%;
+}
+.Div2_H1{
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem solid;
+  color:#202124;
+  padding-bottom: 39px;
+
+  
+}
+
+.Arrowleft{
+  display: flex;
+  flex-direction: row;
+  width: 6px;
+  height: 10px;
+  margin-right: 10%;
+  margin-left: 60%;
+  opacity: 0.5;
+
+ 
+}
+
+.Arrowright {
+  display: flex;
+  flex-direction: row;
+  width: 6px;
+  height: 10px;
+  
+
+}
+
+.divForText1{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 130px;
+  margin-left: 15%;
+  margin-top: 40px;
+  margin-right: 15%;
+  
+}
+
+.Sec_1_Div_2_TRAVEL{
+  display: flex;
+  flex-direction: column;
+  color: #fa6980;
+  font-size: 1rem solid;
+}
+
+.Sec_1_Div_2_Article_title{
+  display: flex;
+  flex-direction: column;
+  color: #202124;
+  font-size: 1rem solid;
+  margin-top: 4%;
+}
+
+.Sec_1_Div_2_Lorem{
+  display: flex;
+  flex-direction: column;
+  color:#a6adb4;
+  font-size: 1rem solid;
+  margin-top: 2%;
+}
+
+.DivForClock{
+  display: flex;
+  flex-direction: row;
+}
+.clock{
+  display: flex;
+  flex-direction: row;
+  width: 16px;
+  height: 16px;
+  margin-top: 3%;
+}
+
+.Sec_1_Div_2_2min{
+  display: flex;
+  flex-direction: row;
+  color: #a6adb4;
+  font-size: 0.813rem;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.divForText2{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 130px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 40px;
+  
+}
+
+/* აქ იწყება მეორე სექცია */
+
+.Section2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 80%;
+  height: 410px;
+  border: 2px solid black;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 4%;
+
+}
+.Sec2_H1_TRENDING{
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5rem;
+  color: #202124;
+}
+
+.Sec2_Arrowleft{
+  display: flex;
+  flex-direction: row;
+  width: 6px;
+  height: 10px;
+  opacity: 0.5;
+  margin-left: 82%;
+}
+.Sec2_Arrowright{
+  display: flex;
+  flex-direction: row;
+  width: 6px;
+  height: 10px;
+  margin-left: 5%;
+  
+}
+
+.Sec2_div1{
+  background-image: url(../Pics/Sec2_Div1.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+}
