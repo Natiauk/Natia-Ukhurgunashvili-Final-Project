@@ -3,7 +3,6 @@
   width: 100%;
   height: 2400px;
   margin: 0 auto;
-  border: 2px solid black;
   display: flex;
   flex-direction: column;
   background-color: #f6f8f9;
@@ -13,7 +12,6 @@
 .Header{
   width: 100%;
   height: 50px;
-  border: 2px solid black;
   display: flex;
  
 }
@@ -26,23 +24,27 @@
   color: #343638;
   padding-top: 21px;
   opacity: 0.5;
+  cursor: pointer;
 }
 
-.Nav1_ul :nth-child(1){
-  color: #343638;
+.HOME{
+  color: black;
   font-weight: bold;
-  opacity: 1;
-  text-decoration: underline red;
-  
-
+  text-decoration: underline red 20%;
 }
+
+.HOME:hover, .WORLD_EWS:hover, .PHOTOS:hover, .CONTACT:hover{
+  text-decoration: underline red 20%;
+   
+}
+
 
 .Profile_pic{
   display: flex;
   flex-direction: row;
   padding-top: 0px;
   font-size: 0.688rem;
-  padding-left: 34px;
+  padding-left: 70px;
 }
 
 .Logo{
@@ -53,8 +55,20 @@
   padding-left: 18px;
   color: #fa6980;
   font-size: 0.813rem;
-  
+  cursor: pointer;
+  animation-name: changelogo;
+  animation-iteration-count: infinite;
+  transition-duration: 2s;
+ 
 }
+
+@keyframes changelogo{
+  form{ color: #fa6980;}
+  to { color: #b0e041;}
+}
+
+
+
 
 /* აქ იწყება პირველი სექცია */
 
@@ -64,7 +78,6 @@
   flex-wrap: nowrap;
   width: 100%;
   height: 600px;
-  border: 2px solid black;
 
 }
 
@@ -85,7 +98,6 @@
   color: #ffffff;
   margin-left: 140px;
   margin-top: 177px;
-  border-bottom: 2px solid #ffffff;
   width: 562px;
   height: 61px;
 
@@ -124,6 +136,12 @@
   margin-top: 30px;
   padding-left: 30px;
   padding-top: 13px;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+.Button_learn:hover{
+  opacity: 0.5;
 }
 
 
@@ -140,7 +158,6 @@
   flex-direction: row;
   width: 70%;
   height: 61px;
-  border-bottom: 2px solid #ebeded;
   margin-left: 15%;
   margin-top: 20%;
   margin-right: 15%;
@@ -251,7 +268,6 @@
   flex-wrap: nowrap;
   width: 80%;
   height: 410px;
-  border: 2px solid black;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 4%;
@@ -303,7 +319,15 @@
   background-position: top;
   background-repeat: no-repeat;
   border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 2px 5px 10px rgb(205, 202, 202)
+
 }
+
+.Sec2_div1:hover{
+filter:brightness(70%) contrast(150%) saturate(0%) brightness(150%);
+}
+ 
 
 .Sec2_div1_Text1{
   display: flex;
@@ -342,7 +366,12 @@
   background-position: top;
   background-repeat: no-repeat;
   border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 2px 5px 10px rgb(205, 202, 202)
 }
+.Sec2_div2:hover{
+  filter:brightness(70%) contrast(150%) saturate(0%) brightness(150%);
+  }
 
 .Sec2_div3{
   display: flex;
@@ -354,8 +383,13 @@
   background-position: top;
   background-repeat: no-repeat;
   border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 2px 5px 10px rgb(205, 202, 202)
 }
 
+.Sec2_div3:hover{
+  filter:brightness(70%) contrast(150%) saturate(0%) brightness(150%);
+  }
 
 /* აქ იწყება მესამე სექცია */
 
@@ -365,7 +399,6 @@
   flex-wrap: nowrap;
   width: 80%;
   height: 960px;
-  border: 2px solid black;
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 4%;
@@ -423,6 +456,7 @@
   height: 430px;
   border-radius: 4px;
   margin-top: 40px;
+  box-shadow: 2px 5px 10px rgb(205, 202, 202)
 }
 
 .Sec3_Div1_text1{
@@ -461,6 +495,7 @@
   height: 430px;
   border-radius: 4px;
   margin-top: 35px;
+  box-shadow: 2px 5px 10px rgb(205, 202, 202)
 }
 .Sec3_DivForcolumn2{
   display: flex;
@@ -475,6 +510,7 @@
   height: 276px;
   border-radius: 4px;
   margin-top: 35px;
+  
 }
 
 .Sec3_Div3_text1{
@@ -501,6 +537,7 @@ font-size: 0.813rem;
   height: 276px;
   border-radius: 4px;
   margin-top: 35px;
+  
 }
 
 .Sec3_Div5{
@@ -511,6 +548,7 @@ font-size: 0.813rem;
   height: 276px;
   border-radius: 4px;
   margin-top: 35px;
+  
 }
 
 /* აქ იწყება ფუტერი */
@@ -578,3 +616,9 @@ margin-top: 100px;
   margin-top: 59px;
   gap: 32px;
 }
+
+.fa-instagram, .fa-twitter, .fa-facebook-f, .fa-globe{
+
+  color: #ffffff;
+}
+
