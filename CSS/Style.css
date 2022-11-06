@@ -1,7 +1,6 @@
 .Container {
   max-width: 1440px;
   width: 100%;
-  height: 2400px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -622,3 +621,116 @@ margin-top: 100px;
   color: #ffffff;
 }
 
+
+/* აქ იწყება ნიუსის სტილები */
+
+.News_Container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f8f9;
+
+}
+
+.News_WORLD_EWS{
+  color: black;
+  font-weight: bold;
+  text-decoration: underline red 20%;
+}
+
+.News_HOME:hover, .News_WORLD_EWS:hover, .PHOTOS:hover, .CONTACT:hover{
+  text-decoration: underline red 20%;
+   
+}
+
+.News_Sec1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 80%;
+  border: 2px black solid;
+  margin: 0 auto;
+  height: 50px;
+
+}
+
+.News_Sec1_Div1{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.News_Sec1_H2{
+  color: #202124;
+  font-size: 0.688rem;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.News_Sec1_H3{
+  color: #202124;
+  font-size: 0.688rem;
+  margin-left: 30px;
+  opacity: 0.5;
+  font-weight: bold;
+}
+
+.Burger{
+  width: 16px;
+  height: 16px;
+  margin-left: 880px;
+}
+
+.News_Sec2{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 500px;
+  border: 2px black solid;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+
+.News_Sec2_div1{
+  display: flex;
+  flex-direction: column;
+  background-image: url(../Pics/News_Sec1_Pic1.png);
+  background-position:top;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 500px;
+}
+
+.News_Sec2_H2{
+  font-size: 2rem;
+  font-weight: bold;
+  padding-top: 30%;
+  padding-left: 27%;
+  color: #ffffff;
+}
+
+.Divider{
+  width: 42px;
+  height: 5px;
+  margin-top: 2%;
+  margin-left: 45%;
+}
+
+
+.News_Sec2_Profile{
+  height: 40px;
+  width: 40px;
+  margin-top: 4%;
+  margin-left: 45%;
+}
+
+.News_Sec2_H4{
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 4%;
+  padding-left: 20%;
+  color: #ffffff;
+}
