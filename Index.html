@@ -19,7 +19,7 @@
   <div class="Container">
 
     <header class="Header">
-     <a href="index.html"><h1 class="Logo">LOGO</h1></a>
+     <a class="Logo" href="index.html"><h1>LOGO</h1></a>
       <nav>
       <ul class="Nav1_ul">
         <a href="index.html"><li class="HOME">HOME</li></a>
@@ -34,11 +34,12 @@
     <Section class="Section_1">
 
       <div class="Sec_1_Div_1">
-        <h2 class="Div1_H2">WORLD NEWS</h2>
+        <a href="article.html"> <h2 class="Div1_H2">WORLD NEWS</h2></a>
         <h3 class="Div1_H3">Amazing Places in America To visit</h3>
         <h4 class="Div1_H4">For some reason — this country, this city, this neighborhood, this particular <br> street —
           is the place you are living a majority of your life in.</h4>
-        <button class="Button_learn">LEARN MORE</button>
+        <a href="article.html"><button class="Button_learn">LEARN MORE</button></a>
+          
       </div>
 
       <div class="Sec_1_Div_2">
@@ -199,10 +200,16 @@
     <li class="Integrations">Integrations</li>
     <li class="Careers">Careers</li>
   </ul>
-<div class="Footer_Div1">
-  <button class="Footer_Button">Email</button>
-  <p class="Footer_PText">Stay in touch with us for the freshest products!</p>
-</div>
+
+  <form class="submit_email" action="#">
+    
+    <input class="email" type="email" id="email" name="email" placeholder="Email">
+    <label class="Select_email" for="email">Stay in touch with us for the freshest products! </label> 
+  
+  </form>
+  
+
+
 
 <div class="Footer_DivForIcons">
   <a href="https://www.instagram.com/" target="_blank" ><i class="fa-brands fa-instagram"></i></a>
