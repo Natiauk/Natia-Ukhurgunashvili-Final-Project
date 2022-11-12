@@ -426,14 +426,37 @@ span{
     flex-wrap: wrap;
    }
 
-
-   .Nav1_ul{
-    display: none;
+   .Logo{
+    padding-right: 0%;
    }
+
+.Nav1_ul {
+  position: fixed;
+  top: 20%;
+  gap: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  left: -100%;
+  transition: 0.5s;
+
+}
+
+.Nav1_ul.active{
+  left: 0;
+}
+
 
    .Profile_pic{
     display: none;
+  
    }
+
+   .fa-bars {
+    display: flex;
+    margin-left: 70%;
+    padding-top: 5%;
+  }
 
    /* მეორე სექცია */
 

@@ -66,6 +66,10 @@
   to { color: #abee0e;}
 }
 
+.fa-bars {
+  display: none;
+}
+
 
 
 
@@ -678,6 +682,7 @@ s
   text-decoration: underline red 20%;
    
 }
+
 
 .News_Profile_pic_1{
   display: flex;
